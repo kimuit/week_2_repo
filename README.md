@@ -1,7 +1,7 @@
 # week_2_repo
-X-tec Shoe web site
+X-tec AgroPlus
 ## X-tec
-This is a project about real estate by X-tec
+This is a project about AgroPlus by X-tec
 
 ## Description
 This a website about real estate was done for Vallie's Estate.
