@@ -1,0 +1,479 @@
+* {	
+	padding: 1px;
+	margin: 1px;
+}
+
+body {
+	background-color: #fff;
+	margin: auto;
+	width: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+	font-family: "Space Grotesk", sans-serif;
+} 
+
+.backimage{
+	background-image: url(../Assests/image1.png);
+	background-position: center;
+	width: auto;
+	height: 600px;
+	
+}
+
+.main-box {
+	background-color: #fff;
+	width: 100%;
+}
+
+.box-nav {
+	
+	background-color: #fff;
+	width: 1290px;
+	border-bottom: 1px solid grey;
+	background-color: #000;
+}
+#white{
+color: #fff;
+}
+#centering{
+text-align: center;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+}
+
+
+.navlink > ul {
+	display: flex !important;
+	align-items: center;
+}
+.navlink > ul > li > a {
+	text-decoration: none;
+	color: black;
+	list-style: none;
+	font-size: 17px;
+	padding: 20px;
+}
+
+.navlink > ul > li {
+	list-style: none;
+}
+
+.navlink > ul > li > a:hover {
+	color: #ED661F;
+	font-weight: 600;
+}
+.navlink ul > li > .visited-link:visited {
+	color: #ED661F;
+	font-weight: 700;
+}
+
+.logo > h1 {
+	font-family: "Oleo Script", cursive;
+}
+
+.btn {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600 !important;
+	cursor: pointer;
+	padding: 18px;
+	border-radius: 9px;
+	border: none;
+	background-color: #ED661F;
+	
+}
+.btn:hover {
+	box-shadow: rgba(136, 165, 191, 0.42) 6px 15px 16px 0px,
+		rgba(255, 255, 255, 0.9) -6px -15px 3px 0px;
+}
+
+#getstarted-btn {
+	cursor: pointer;
+}
+
+
+main body {
+	padding-top: 160px;
+	width: 80%;
+	margin: auto;
+}
+
+
+.first_section {
+	
+	align-items: center;
+	display: flex;
+}
+
+#welcome-head {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	
+}
+.welcome-img {
+	height: 400px;
+	width: 500px;
+}
+.welcome-img > img {
+	width: inherit;
+	height: inherit;
+}
+.title-description > h1 {
+	color: #0f298b;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.title-description > p {
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: 400;
+	color: grey;
+}
+.more-btn {
+	display: flex;
+	align-items: center;
+	width: 45%;
+	justify-content: space-between;
+}
+
+/* stling the Search section */
+.search-bar {
+	width: 90%;
+	margin: 100px auto 0;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+		rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.search-bar .inner-container {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+#search-btn {
+	display: flex;
+	align-items: center;
+}
+#search-btn > span {
+	margin-right: 10px;
+	color: #fff;
+}
+.option-icon {
+	display: flex;
+	align-items: center;
+}
+.option-icon > label,
+span {
+	color: #ED661F;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+#search-btn.material-symbols-rounded {
+	font-size: 23px;
+	cursor: pointer;
+}
+
+/* styling Product Section */
+.product-section {
+	margin: 90px auto 0;
+}
+.product-title {
+	color: #ED661F;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.product-section .products-options {
+	text-align: center;
+}
+.offers-options-cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.offers-options-cards .card-option {
+	width: 30%;
+	max-width: 30%;
+	background-color: #fff;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	height: 300px;
+	padding: 30px;
+	margin: 15px;
+}
+.offers-options-cards .card-option:hover {
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+	cursor: pointer;
+}
+.img-card-option {
+	height: 100px;
+	width: 100%;
+	justify-content: center;
+}
+.img-card-option > img {
+	height: inherit;
+	margin: 0 auto;
+}
+
+.more-info > h3 {
+	font-weight: 500;
+	margin-top: 20px;
+	font-size: 30px;
+
+}
+
+.subtitle {
+	margin-top: 12px;
+	margin-bottom: 48px;
+	font-size: 25px;
+	
+}
+
+
+.more-info > p {
+	font-weight: 450;
+	margin-top: 20px;
+	font-size: 18px;
+	
+	color: grey;
+}
+
+
+
+
+.recomendation-img {
+	height: 350px;
+	width: 450px;
+}
+
+.recomendation-section {
+	display: flex;
+	justify-content: space-between !important;
+	margin-top: 150px;
+	margin-bottom: 150px;
+
+	width: 100%;
+	align-items: center;
+}
+
+
+.recomendation-img > img {
+	width: inherit;
+	height: inherit;
+}
+.recomendation-title > p {
+	font-size: 20px;
+	margin-top: 10px;
+
+	font-weight: 400;
+	color: grey;
+}
+.recomendation-title {
+	padding: 4px;
+	width: 500px;
+}
+.checked-offers {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.checked-content {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.checked-content > label {
+	color: #000;
+	font-size: 19px;
+	padding-left: 5px;
+}
+.checked-content .material-symbols-rounded {
+	font-size: 19px;
+	/* font-weight: 600; */
+	font-variation-settings: "FILL" 900, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+
+
+
+/* featured styling */
+.featured-section {
+	margin: 170px auto 100px;
+	text-align: center;
+}
+.featured-sectin-title {
+	width: 75%;
+	margin: auto;
+}
+
+.featured-section .featured-display {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.featured-cards-huses {
+	height: 250px;
+}
+
+.featured-cards-huses:hover {
+	box-shadow: rgba(130, 165, 195, 0.48) 6px 2px 16px 0px,
+		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+	cursor: pointer;
+}
+.featured-cards-huses .top-image {
+	width: 100%;
+}
+
+.featured-cards-huses {
+	
+	width: 30%;
+	max-width: 30%;
+	background-color: #fff;
+	border-top-right-radius: 71px;
+	border-bottom-left-radius: 30px;
+}
+.featured-cards-huses .top-image > img {
+	height: inherit;
+	width: inherit;
+}
+.description-details {
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 35px 20px;
+}
+.house-details,
+.house-price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.house-price {
+	margin-top: 5px;
+}
+.description-condition {
+	color: grey;
+}
+.house-price {
+	font-weight: 500;
+	color: #ED661F;
+}
+.house-price > .house-details > h3 {
+	font-size: 23px;
+	font-weight: 500;
+}
+.btn-position-more {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#view-more-btn {
+	border-radius: 10px;
+	font-size: small;
+	font-weight: 400;
+	padding: 5 25px 0;
+}
+
+
+.footer-menu {
+	height: 600;
+	background-color: black;
+	max-width: 1024;
+	padding-top: 100px;
+}
+
+.footer-menu {
+	justify-content: space-between;
+	margin: auto;
+	margin-bottom: 0px;
+	padding: 80px;
+	display: flex;
+	padding-top: 40px;
+}
+.menu-colums-options {
+	width: 20%;
+	margin: 20px;
+}
+
+.menu-colums-options > h2 {
+	color: #fff;
+}
+.footer-logo {
+	color: #fff;
+	font-size: 13px;
+}
+
+.menu-colums-options > p {
+	color: azure;
+	font-size: 15px;
+}
+
+.menu-colums-options > ul > li {
+	list-style: none;
+	margin-top: 20px;
+}
+.menu-colums-options > ul > li a {
+	text-decoration: none;
+	margin-top: 20px;
+	color: azure;
+	font-size: 15px;
+}
+
+.stared{
+    color: #ED661F;
+    size: 10px;
+}
+.str{
+    width: 40px;
+    height: 40px;
+    float: left;
+    clear: none;
+}
+table, th, td {
+	border:1px solid black;
+	width: 20%;
+	}
+	
+	#orange{
+	background-color: #ED661F;
+	cursor: pointer;
+	}
+	#black{
+		color: #000;
+		background-color: white;
+	}
+	.fter-menu{
+		display: block;
+		text-align: center;
+		padding-right: 400px;
+	}
+	#lastline{
+text-align: center;
+color: #fff;
+background-color: #000;
+margin-top: -2px;
+margin-bottom: 10px;
+padding-bottom: 50px;
+	}
