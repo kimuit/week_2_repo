@@ -4,7 +4,7 @@ X-tec AgroPlus
 This is a project about AgroPlus by X-tec
 
 ## Description
-This a website about real estate was done for Vallie's Estate.
+This a website about Agro bussiness with AgroPlus.
 
 ## Setup/Installation Requirements
 Visual studio code or any preffered code editor
