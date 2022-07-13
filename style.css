@@ -13,7 +13,7 @@ body {
 } 
 
 .backimage{
-	background-image: url(../Assests/image1.png);
+	background-image: url(./Assests/image1.png);
 	background-position: center;
 	width: auto;
 	height: 600px;
